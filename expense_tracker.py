@@ -53,7 +53,6 @@ def category_expense():
 
 
 while True:
-
     print("\n===== PERSONAL EXPENSE TRACKER =====")
     print("1. Add Expense")
     print("2. View All Expenses")
@@ -65,19 +64,14 @@ while True:
 
     if choice == "1":
         add_expense()
-
     elif choice == "2":
         show_expenses()
-
     elif choice == "3":
         total_expense()
-
     elif choice == "4":
         category_expense()
-
     elif choice == "5":
         print("Thank you for using Expense Tracker!")
         break
-
     else:
         print("Invalid choice!")
